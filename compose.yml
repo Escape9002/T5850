@@ -1,0 +1,11 @@
+services:
+  
+  gpn_bot:
+    
+    container_name: gpn_sneck
+    build: .
+    
+    entrypoint: /app/gpn_bot
+
+    env_file: .env
+    network_mode: host

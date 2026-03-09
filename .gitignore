@@ -1,0 +1,4 @@
+/target
+/gpn-tron
+.env
+*.lock
